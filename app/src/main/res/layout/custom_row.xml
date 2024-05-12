@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/rounded_background"
+    android:id="@+id/rowLayout"
+    android:elevation="9dp">
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="221dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Kasun Lakshitha"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toEndOf="@+id/Priority"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="211dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toEndOf="@+id/Priority"
+        app:layout_constraintTop_toBottomOf="@+id/Name" />
+
+    <TextView
+        android:id="@+id/Priority"
+        android:layout_width="67dp"
+        android:layout_height="52dp"
+        android:fontFamily="monospace"
+        android:text="05"
+        android:textAlignment="center"
+        android:textFontWeight="400"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Deadline"
+        android:layout_width="99dp"
+        android:layout_height="23dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="02/05/2024"
+        android:textColor="#FF2F2F"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Description" />
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/deleteButton"-->
+<!--        android:layout_width="44dp"-->
+<!--        android:layout_height="44dp"-->
+<!--        android:layout_margin="1dp"-->
+<!--        android:layout_marginEnd="1dp"-->
+<!--        android:background="@null"-->
+<!--        android:contentDescription="Delete"-->
+<!--        android:padding="1dp"-->
+<!--        android:src="@drawable/baseline_delete_24"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
